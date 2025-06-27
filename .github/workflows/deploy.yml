@@ -58,8 +58,7 @@ jobs:
           --memory 1Gi \
           --cpu 1 \
           --max-instances 10 \
-          --timeout 300 \
-          --set-env-vars "PORT=8080"
+          --timeout 300
 
     - name: Get service URL
       run: |
